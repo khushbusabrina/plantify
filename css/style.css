@@ -15,9 +15,209 @@ a{
 h1,h2,h3,h4,h5,h6,p{
     margin:0;
     padding:0;
-    line-height:1.4px;
+    line-height:1.4;
 }
+
      /* all common css end */
-     /* navbar start */
-      /* navbar end*/
-     
+      /* navbar start */
+
+
+     .navbtn{
+        border: none;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.764);
+        background-color: transparent;
+      
+      
+     }
+     .navbar{
+        position: absolute;
+        top: 0;
+        margin: 0 auto;
+        z-index: 12;
+        width: 100%;
+      
+     }
+     .navbar .container{
+        width: 90%;
+        max-width: 1160px;
+        margin: 0 auto;
+      
+     }
+
+     .nav-link {
+        color: white !important;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+     }
+     .navbar-nav{
+        gap: 40px !important
+     }
+     .nav_btnwrape{
+        display: flex;
+        gap: 18px;
+        justify-content: space-between;
+      
+     }
+     .dropdown-menu{
+        background-color: #004F44;
+        
+     }
+     .dropdown-item{
+        color: white !important;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+
+
+     }
+      .dropdown-item:hover{
+         color:  #004F44 !important;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        background-color: blanchedalmond;
+
+      }
+     /* navbar end*/
+     /* banner start */
+    
+     #banner{
+            background-color: #004F44 !important;
+            position: relative;
+            height: 840px;
+            z-index: 1;
+            padding-top: 192px;
+         
+     }
+     .banner_content{
+        margin-top: 46px;
+     }
+
+     .banner_content h1{
+        font-size:64px;
+        font-weight:700 ;
+        color:white ;
+        max-width:420px;
+        line-height:72px;
+        margin-bottom: 32px;
+     }
+      .banner_content p{
+        font-size: 16px;
+        font-weight: 400;
+        color:#EFF7F5;
+        max-width: 420px;
+        opacity: 80%;
+        margin-bottom: 32px;
+        line-height: 28px;
+      }
+    .banner_btn{
+        font-size:16px;
+        font-weight: 400;    
+        color: #004F44;
+        border: none;
+        padding: 19px 40px;
+        background-color:white;
+         transition: 0.3s;
+
+    }
+    .banner_btnwrape{
+        display: flex;
+        gap: 20px;
+    }
+    .banner_btn:hover{ 
+        background-color: transparent;
+        color: #EFF7F5;
+        transition: 0.3s;
+
+    }
+    .bannerposition{
+        position: absolute;
+        height:115px ;
+        width: 115px;
+        right: 870px;
+        bottom:65px;
+        z-index: 0;
+    }
+    .imgwraper{
+        position: relative;
+    }
+    .bannerimg{
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+       /* banner end */
+         /* featured part start */
+    #featured{
+     padding-top:70px;
+     padding-bottom:97px;
+    }
+    .viewall{
+        text-align: center;
+    }
+    .viewall span{
+        font-size:24px;
+        font-weight: 400;
+        color: #004F44;
+        letter-spacing:0.5px;
+         margin-bottom: 48px;
+
+    }
+    .featured_heading h2{
+        font-size:40px;
+        font-weight:400;
+        color:#004F44;
+        margin-bottom: 48px;
+    }
+    .circle{
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .circlewraper{
+        display: flex;
+        gap: 4px;
+    }
+    .cardhead h4{
+        font-size:20px;
+        font-weight:400;
+        color:#004F44;
+        margin-bottom: 28px;
+    }
+    .cardprice{
+         font-size:20px;
+        font-weight:400;
+        color:#004F44;
+        margin-bottom: 36px;
+    }
+    .circleheading h6{
+         font-size:18px;
+        font-weight:400;
+        color:#9EA9A7;
+        margin-bottom: 8px;
+        
+    }
+    .featurebtn{
+        font-size:16px;
+        font-weight:400;
+        color:#fff;
+        background-color:#004F44;
+        border: 1px solid transparent ;
+        padding:8px 19px ;
+          transition: 0.3s;
+
+    }
+.featurebtn:hover{
+      border: 1px solid #004F44 ;
+      background-color: transparent;
+      color:#004F44 ;
+      transition: 0.3s;
+
+}
+         /* featured part end */
+    
