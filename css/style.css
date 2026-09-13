@@ -184,16 +184,18 @@ h1,h2,h3,h4,h5,h6,p{
         gap: 4px;
     }
     .cardhead h4{
-        font-size:20px;
+        font-size:14px;
         font-weight:400;
         color:#004F44;
         margin-bottom: 28px;
+        margin-top: 20px;
     }
     .cardprice{
-         font-size:20px;
+         font-size:14px;
         font-weight:400;
         color:#004F44;
         margin-bottom: 36px;
+        margin-top: 20px;
     }
     .circleheading h6{
          font-size:18px;
@@ -219,5 +221,88 @@ h1,h2,h3,h4,h5,h6,p{
       transition: 0.3s;
 
 }
+
+
+.circlewraper :nth-child(1){
+    background-color: #39362E;
+}
+.circlewraper :nth-child(2){
+    background-color: #F3A195;
+}
+.circlewraper :nth-child(3){
+    background-color: #EFEAE6;
+}
+.circlewraper :nth-child(4){
+    background-color: #C38364;
+}
          /* featured part end */
+         /* <!-- serarch part part --> */
+
+
+#serarch{
+    margin-top: 95px;
+    margin-bottom: 96px;
+    background-color: #F3FFFC;
+    height:229px;
+    padding: 85px 0;
+}
+.filtericon{
+    height:59px ;
+    width: 59px;
+     border: 2px solid rgba(0, 79, 69, 0.755);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+.filtericon i{
+    color:rgba(0, 77, 65, 0.849) ;
+    font-size: 30px;
+}
+.searchinput{
+    height:59px ;
+    width:1250px ;
+    border: 2px solid rgba(0, 79, 69, 0.755);
+    outline: 0;
+    padding-left: 27px;
+}
+.searchinput::placeholder{
+    font-size:16px;
+   font-weight: 400;
+    color:#004F44 ;
+}
+.searchicon{
+    height:59px ;
+    width: 59px;
+    background-color: #004F44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchicon i{
+    color: white;
+    font-size: 25px;
+
+}
+.searchinputwrape{
+    display: flex;
+    gap: 15px;
+}
+    /* <!-- serarch part end --> */
+    /* newarrival part start */
+    .arrivalheading h3{
+        font-size:30px;
+        font-weight:400;
+        color:#004F44;
+        margin-bottom: 67px;
+
+    }
+    .view{
+          margin-bottom: 67px;
+
+    }
+
+    /* newarrival part end */
+
+
     
